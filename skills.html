@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Skills | Sabbir</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" href='letter-s.png' type="image/x-icon">
+</head>
+
+<body>
+
+<nav>
+    <h2 class="logo">SHISIR</h2>
+    <img src="letter-s.png" alt="Logo" class="logo-img" height="50px" width="50px">
+
+    <div class="menu-toggle" id="menu-toggle">
+        ☰
+    </div>
+
+    <ul id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="card">
+<h2>My Skills</h2>
+
+<div class="skills-container">
+<div class="skill">HTML</div>
+<div class="skill">CSS</div>
+<div class="skill">Python</div>
+<div class="skill">Java</div>
+<div class="skill">C++</div>
+<div class="skill">SQL</div>
+</div>
+
+</section>
+
+<!--Used for add hamburger menu -->
+<script>
+    const toggle = document.getElementById("menu-toggle");
+    const navLinks = document.getElementById("nav-links");
+
+    toggle.addEventListener("click", function(){
+        navLinks.classList.toggle("active");
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Projects | Sabbir</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" href='letter-s.png' type="image/x-icon">
+</head>
+
+<body>
+
+<nav>
+    <h2 class="logo">SHISIR</h2>
+    <img src="letter-s.png" alt="Logo" class="logo-img" height="50px" width="50px">
+
+    <div class="menu-toggle" id="menu-toggle">
+        ☰
+    </div>
+
+    <ul id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<section class="card">
+
+<h2>Projects</h2>
+
+<div class="projects">
+
+<div class="project">
+<h3>Portfolio Website</h3>
+<p>HTML, CSS</p>
+</div>
+
+<div class="project">
+<a href="https://github.com/Shisir163/Online-shopping-management-system" target="_blank"><h3>Online Shopping</h3></a>
+<p>SQL</p>
+</div>
+
+<div class="project">
+
+<a href="https://github.com/Shisir163/Student-Management-System" target="_blank"><h3>Student Management System</h3></a>
+<p>Java</p>
+</div>
+
+</div>
+
+</section>
+
+<!--Used for add hamburger menu -->
+<script>
+    const toggle = document.getElementById("menu-toggle");
+    const navLinks = document.getElementById("nav-links");
+
+    toggle.addEventListener("click", function(){
+        navLinks.classList.toggle("active");
+    });
+</script>
+
+</body>
+</html>
