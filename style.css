@@ -143,6 +143,7 @@ nav ul li a:hover{
     border-radius:15px;
     box-shadow:0 5px 20px rgba(0,0,0,0.1);
     text-align:center;
+   position:relative;
 }
 
 .card h2{
@@ -423,3 +424,4 @@ text-align:center;
     }
 
 }
+
